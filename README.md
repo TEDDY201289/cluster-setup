@@ -111,3 +111,5 @@ then in each of worker node , run the comamnd for joint master nodes
     --discovery-token-ca-cert-hash sha256:1234567890abcdef...
 
 # kubectl get nodes
+# kubectl get pods -A -o wide
+# kubectl get ns -A
